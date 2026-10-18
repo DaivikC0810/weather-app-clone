@@ -152,3 +152,19 @@ body {
     font-size: 14px;
     color: #666666;
 }
+
+/* --- Phase 5: Visual Icon Adjustments --- */
+.temp-display {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Creates an elegant space between the 29° number and the moon */
+    margin-top: 10px;
+}
+
+.weather-icon {
+    font-size: 48px; /* Makes the crescent moon large and robust */
+}
+.timeline-icon {
+    font-size: 20px;       /* Keeps the icon small and neat inside the timeline tile */
+    margin-bottom: 5px;    /* Adds space right under the moon before the temperature */
+}
