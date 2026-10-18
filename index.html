@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai - BBC Weather Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Row 1: The App Header Bar -->
+    <div class="header-bar">
+        <h1>Mumbai</h1>
+    </div>
+
+    <!-- Row 2: The Focus Banner Container -->
+    <div class="focus-banner">
+        
+        <!-- Left Column: Primary Weather Display -->
+        <div class="focus-left">
+            <h2>Tonight</h2>
+            <div class="temp-display">
+                <span class="temperature">29°</span>
+            </div>
+            <p class="condition-text">A clear sky and light winds</p>
+        </div>
+
+        <!-- Right Column: Horizontal Days List -->
+        <div class="focus-right">
+            
+            <!-- Day 1 Segment -->
+            <div class="forecast-day">
+                <span class="day-name">Mon 19th</span>
+                <span class="day-high">36°</span>
+                <span class="day-low">26°</span>
+            </div>
+
+            <!-- Day 2 Segment -->
+            <div class="forecast-day">
+                <span class="day-name">Tue 20th</span>
+                <span class="day-high">36°</span>
+                <span class="day-low">27°</span>
+            </div>
+
+            <!-- Day 3 Segment -->
+            <div class="forecast-day">
+                <span class="day-name">Wed 21st</span>
+                <span class="day-high">37°</span>
+                <span class="day-low">27°</span>
+            </div>
+
+        </div> <!-- Closes focus-right -->
+
+    </div> <!-- THIS NOW CORRECTLY CLOSES THE FOCUS-BANNER -->
+
+            <!-- Row 3: Hour-by-Hour Timeline Forecast -->
+    <div class="hourly-forecast">
+        <h3>Hour by hour forecast</h3>
+        
+        <div class="timeline-container">
+            <!-- Hour 1 -->
+            <div class="hour-block">
+                <span class="time">00:30</span>
+                <span class="hourly-temp">31°</span>
+                <span class="rain-chance">0%</span>
+            </div>
+
+            <!-- Hour 2 -->
+            <div class="hour-block">
+                <span class="time">01:30</span>
+                <span class="hourly-temp">31°</span>
+                <span class="rain-chance">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 4: The Footer Metrics Bar -->
+    <div class="footer-bar">
+        <div class="uv-index">
+            <span class="uv-badge">L</span>
+            <span class="uv-text">UV Low</span>
+        </div>
+        <div class="sun-cycle">
+            <span>Sunrise 06:33</span>
+            <span>Sunset 18:14</span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
